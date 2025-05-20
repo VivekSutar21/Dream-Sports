@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: url("mountain-cyclists-stand-top-mountain-with-bike-point-finger-front.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    /* padding-bottom: 15%; */
+  }
+  
+  /* Optional overlay for better text contrast */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#213448;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-buttons a {
+    margin-left: 15px;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 0 solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  
+  .nav-buttons a:hover {
+    background-color: white;
+    color: #1a1a1a;
+  }
+  
+
+  #section1{
+    margin-top: 40px;
+    margin-left:150px;
+    font-size: larger;
+    background: transparent;
+    width: 12cm;
+    text-align: center;
+    height: auto;
+    font-family: Tahoma, sans-serif;
+    color: white;
+    /* background-color: aliceblue; */
+  }
+
+  #section1 p{
+    margin-top: -20px;
+    padding-top: 50px;
+  }
+
+  #chatLogo{
+    /* background-color: aliceblue; */
+    height: 2cm;
+    width: 2cm;
+    float: right;
+    margin-right: 50px;
+    margin-top:200px;
+  }
+  #chatimg{
+    float: left;
+    height: 1.5cm;
+    width: 1.5cm;
+  }
+
+#chatimg:hover{
+    height: 1.7;
+    width: 1.7;
+}
+
+#section2{
+    width:auto;
+    height:12cm;
+    margin-top: 350px;
+    
+}
+#catalog{
+    margin-left:35px;
+    text-align: center;
+    font-size:large;
+    font-weight:800;
+}
+#catalog div{
+    /* background-color:white;*/
+    background: transparent;
+    color: white;
+    height: 10cm;
+    width: 6.5cm;
+    float: left;
+    margin-left:10px;
+}
+
+#catalog div:hover{
+    background-color:aliceblue;
+    color: black;
+}
+
+#con1 img{
+    margin-top:20px;
+    margin-left:1px;
+    height:4cm;
+    width: 6cm;
+}
+
+#lists{
+    margin-top: 30px;
+}
+
+footer{
+    height:4cm;
+    width: 100%;
+    background-color:#213448;
+    bottom: 0;
+    color: aliceblue;
+}
+
+footer #contactinfo{
+    float:right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+#contactinfo p{
+    margin-bottom:10px;
+}
+
+#about{
+    color: white;
+    /* background-color: antiquewhite; */
+    width:auto;
+    font-size:large;
+    height:26cm;
+    margin-top: 350px;
+}
+
+#about-right img{
+    height:12cm;
+    width: 18cm;
+    float: right;
+    margin-right:30px;
+    margin-top: -420px;
+}
+
+#about-left {
+    width: 15cm;
+    height: 12cm;
+    margin-left:80px;
+    /* background-color: bisque; */
+    margin-top:-50px;
+    padding-top: 80px;
+}
+
+#left-content{
+    text-align:left;
+}
+
+#left-content h3{
+    padding-top: 10px;
+}
+
+#left-content p{
+    padding-top:5px;
+}
+
+#right-img img{
+    width: 18cm;
+    height: 12cm;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#book-info{
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#book-info p{
+    margin-top: 8px;
+}
